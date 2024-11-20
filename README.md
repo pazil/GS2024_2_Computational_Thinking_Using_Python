@@ -51,7 +51,7 @@ O sistema prevê o consumo futuro com base em dados históricos e fornece relat�
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu_usuario/seu_projeto.git
+   git clone https://github.com/pazil/GS2024_2_Computational_Thinking_Using_Python.git
    cd seu_projeto
    ```
 
@@ -101,9 +101,8 @@ O sistema prevê o consumo futuro com base em dados históricos e fornece relat�
 │   └── modelo_lstm.h5                # Modelo LSTM treinado
 ├── 📁 notebooks
 │   └── GS2024_2_–_Redes_Neurais_e_Deep_Learning_ (2).ipynb  # Notebook de treinamento
-├── 📁 GS2024_2_Computational_Thinking_Using_Python
-│   └── 📁 train_data
-│       └── consumo_eletrico_brasil.csv  # Dados para treinamento da LSTM
+├── 📁 train_data
+│    └── consumo_eletrico_brasil.csv  # Dados para treinamento da LSTM
 ├── 📁 src
 │   ├── data_processing.py            # Funções para processamento de dados
 │   ├── model.py                      # Funções para carregar e prever com o modelo
